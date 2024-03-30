@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+body{
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #eeeeee;
+}
+
+h1,h2{
+  color: cadetblue;
+}
+
+h1{
+  text-align: center;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 0;
+}
+
+li{
+  list-style: none;
+  width: 32%;
+  background-color: white;
+}
+
+
+img{
+  width: 100%;
+}
+
+h2{
+  border-left: solid 10px cadetblue;
+  padding-left: 10px;
+  margin: auto 10px;
+}
+
+p{
+  margin: 10px;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 400px){
+ul{
+  flex-direction: column;
+  margin: 10px;
+}
+
+li{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+}

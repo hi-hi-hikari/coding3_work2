@@ -44,14 +44,13 @@ p{
 }
 
 @media screen and (max-width: 400px){
-ul{
-  flex-direction: column;
-  margin: 10px;
-}
+  ul{
+    flex-direction: column;
+    margin: 10px;
+  }
 
-li{
-  width: 100%;
-  margin-bottom: 30px;
-}
-
+  li{
+    width: 100%;
+    margin-bottom: 30px;
+  }
 }
